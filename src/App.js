@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Test from "./components/Test";
+import CreatePostPage from "./components/CreatePostPage";
 function App() {
   return (
-    <div className="App">
-      <h1>I love you &#10084; </h1>
-        <h1>and I miss you &#129392; </h1>
+    <div>
+        <CreatePostPage />
     </div>
   );
 }
